@@ -1,0 +1,89 @@
+#r,
+#g,
+#b {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  transition: left 1s, top 1s;
+}
+#r {
+  background: red;
+  left: 0px;
+  top: 0px;
+}
+#g {
+  background: green;
+  left: 50px;
+  top: 50px;
+}
+#b {
+  background: blue;
+  left: 100px;
+  top: 100px;
+}
+
+#x,
+#y {
+  display: inline-block;
+}
+.header {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: -15px;
+}
+
+.step {
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: 45%;
+  right: 3.5%;
+  font-size: 25px;
+  text-align: center;
+  font: larger;
+}
+
+.XY {
+  border: 2px solid black;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  bottom: 35%;
+  right: 2%;
+  font-size: 25px;
+  text-align: center;
+  font: larger;
+}
+
+#bob {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  background: red;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#window {
+  width: 250px;
+  height: 500px;
+  border: 2px solid black;
+  float: right;
+  z-index: 1;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 55%;
+  right: 4%;
+}
